@@ -24,17 +24,17 @@ public class Clase2 {
     public int suma(int Y, int X)
     {
   int suma;
-  suma=this.X+this.Y;
+  suma=this.Y+this.X;
   return suma;
     }
    public double suma(double N,double M){
    double suma;
-   suma= this.M+this.N;
+   suma= this.N+this.M;
    return suma;
    }
    public int resta(int Y, int X){
        int resta;
-       resta=this.X-this.Y;
+       resta=this.Y-this.X;
        return resta;
    }
    public double resta(double M, double N)
@@ -45,7 +45,7 @@ public class Clase2 {
    }
    public int multiplicacion(int Y, int X){
    int multiplicacion;
-   multiplicacion=this.X*this.Y;
+   multiplicacion=this.Y*this.X;
    return multiplicacion;
    }
    public double multiplicacion(double N,double M){
@@ -55,12 +55,45 @@ public class Clase2 {
    }
     public int divicion(int Y, int X){
     int divicion;
-    divicion=this.X/this.Y;
+    divicion=this.Y/this.X;
     return divicion;
     }
     public double divicion(double N, double M){
    double divicion;
-   divicion=this.M/this.N;
+   divicion=this.N/this.M;
    return divicion;
     }
+
+    public int getY() {
+        return Y;
+    }
+
+    public void setY(int Y) {
+        this.Y = Y;
+    }
+
+    public int getX() {
+        return X;
+    }
+
+    public void setX(int X) {
+        this.X = X;
+    }
+
+    public double getN() {
+        return N;
+    }
+
+    public void setN(double N) {
+        this.N = N;
+    }
+
+    public double getM() {
+        return M;
+    }
+
+    public void setM(double M) {
+        this.M = M;
+    }
+    
 }

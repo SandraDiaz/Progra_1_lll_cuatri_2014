@@ -21,4 +21,13 @@ public class Clase3 {
    incrementar=(((this.N+77)-3)*2);
    return incrementar;
     }
+
+    public int getN() {
+        return N;
+    }
+
+    public void setN(int N) {
+        this.N = N;
+    }
+    
     }

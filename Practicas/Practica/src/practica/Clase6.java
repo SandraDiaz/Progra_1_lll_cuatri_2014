@@ -16,9 +16,14 @@ public class Clase6 {
     public Clase6(){
     this.B=0;
     }
+
+    public void setB(int B) {
+        this.B = B;
+    }
+    
      public boolean positivo()
     {
-    if ( this.B >= 0)
+    if ( this.B< 0)
     {
     return (true);
     }

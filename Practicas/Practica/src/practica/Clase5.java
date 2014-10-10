@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package practica;
 
 /**
@@ -11,22 +10,24 @@ package practica;
  * @author Monse
  */
 public class Clase5 {
-     int A;
-     public Clase5()
-     {
-     this.A=0;
-     }
-     public boolean par()
-    {
-    if ( this.A % 2 == 0)
-    {
-    return (true);
+
+    int A;
+
+    public Clase5() {
+        this.A = 0;
     }
-    else
-    {
-    return(false);
+
+    public boolean par() {
+        if (this.A%2 == 0) {
+            return (true);
+        } else {
+            return (false);
+        }
+
     }
-     
-     }
-     
+    public void setA(int A) {
+        this.A = A;
+    }
+    
+
 }
