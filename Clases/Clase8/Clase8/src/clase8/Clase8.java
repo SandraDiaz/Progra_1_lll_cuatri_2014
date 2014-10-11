@@ -4,12 +4,19 @@
  * and open the template in the editor.
  */
 
-package practicastring;
+package clase8;
 
 /**
  *
  * @author Monse
  */
-public class Clase6 {
+public class Clase8 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

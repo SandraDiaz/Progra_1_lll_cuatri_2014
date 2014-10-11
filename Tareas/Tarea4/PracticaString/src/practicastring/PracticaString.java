@@ -18,11 +18,7 @@ public class PracticaString {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
-        boolean validar = true;
-        int valor1 = 0;
-        int valor2 = 0;
-        double resultado;
+       
         char continuar;
         int opcion = 0;
 
@@ -43,64 +39,39 @@ public class PracticaString {
 
             switch (opcion) {
                 case 1:
+                    Clase1 oClase1= new Clase1();
                     System.out.println("Digite el Mes");
                     teclado = new Scanner(System.in);
-                    valor1 = Integer.parseInt(teclado.nextLine());
-                    resultado = oOperaciones.Sumar(valor1, valor2);
-                    System.out.println(resultado);
+                    int num= Integer.parseInt(teclado.nextLine());
+                    String  Mes = oClase1.Mes(num);
+                    System.out.println(Mes);
                     break;
 
                 case 2:
-                    System.out.println("Digite el valor del primer dígito ");
+                    Clase2 oClase2=new Clase2();
+                    System.out.println("Digite el numero ");
                     teclado = new Scanner(System.in);
-                    valor1 = Integer.parseInt(teclado.nextLine());
-                    System.out.println("Digite el valor del segundo dígito ");
-                    teclado = new Scanner(System.in);
-                    valor2 = Integer.parseInt(teclado.nextLine());
-                    resultado = oOperaciones.Resta(valor1, valor2);
-                    System.out.println(resultado);
+                    int nume = Integer.parseInt(teclado.nextLine());
+                    int result = oClase2.Resul(nume);
+                    System.out.println(result);
                     break;
 
                 case 3:
-                    System.out.println("Digite el valor del primer dígito ");
+                    Clase3 oClase3= new Clase3();
+                    System.out.println("Digite la letra ");
                     teclado = new Scanner(System.in);
-                    valor1 = Integer.parseInt(teclado.nextLine());
-                    System.out.println("Digite el valor del segundo dígito ");
-                    teclado = new Scanner(System.in);
-                    valor2 = Integer.parseInt(teclado.nextLine());
-                    resultado = oOperaciones.Division(valor1, valor2);
-                    System.out.println(resultado);
+                    char letra = Integer.parseInt(teclado.nextLine());
+                    String Mensaje = oClase3.Mensaje(letra);
+                    System.out.println(Mensaje);
                     break;
 
                 case 4:
+                    Clase4 oClase4=new Clase4();
                     System.out.println("Digite el valor del primer dígito ");
                     teclado = new Scanner(System.in);
-                    valor1 = Integer.parseInt(teclado.nextLine());
-                    System.out.println("Digite el valor del segundo dígito ");
-                    teclado = new Scanner(System.in);
-                    valor2 = Integer.parseInt(teclado.nextLine());
-                    resultado = oOperaciones.Multiplicacion(valor1, valor2);
-                    System.out.println(resultado);
-                    break;
-
-                case 5:
-                    System.out.println("Digite el valor del primer dígito ");
-                    teclado = new Scanner(System.in);
-                    valor1 = Integer.parseInt(teclado.nextLine());
-                    resultado = oOperaciones.Raiz(valor1);
-                    System.out.println(resultado);
-                    break;
-
-                case 6:
-                    System.out.println("Digite el valor del primer dígito ");
-                    teclado = new Scanner(System.in);
-                    valor1 = Integer.parseInt(teclado.nextLine());
-                    System.out.println("Digite el valor del segundo dígito ");
-                    teclado = new Scanner(System.in);
-                    valor2 = Integer.parseInt(teclado.nextLine());
-                    oOperaciones.Potencia(valor1, valor2);
-                    resultado = oOperaciones.Potencia(valor1, valor2);
-                    System.out.println(resultado);
+                    Mesa = Integer.parseInt(teclado.nextLine());
+                    dias = oClase4.fecha(int anno, int mesa);
+                    System.out.println(dias);
                     break;
 
                 default:

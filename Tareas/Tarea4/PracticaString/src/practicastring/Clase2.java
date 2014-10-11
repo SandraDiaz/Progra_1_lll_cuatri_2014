@@ -11,23 +11,23 @@ package practicastring;
  * @author Monse
  */
 public class Clase2 {
-    int num;
+    int nume;
 
-    public int getNum() {
-        return num;
+    public int getNume() {
+        return nume;
     }
 
-    public void setNum(int num) {
-        this.num = num;
+    public void setNum(int nume) {
+        this.nume = nume;
     }
-  public int Resul(int num){
+  public int Resul(int nume){
     int resultado=0;
-    resultado=num%10;
+    resultado=nume%10;
     if(resultado==2||resultado==5||resultado==8){
-    return num*num;
+    return nume*nume;
     }else if(resultado==4||resultado==7||resultado==9){
-    return num*5;
+    return nume*5;
     }
-    return num;
+    return nume;
 }
 }
