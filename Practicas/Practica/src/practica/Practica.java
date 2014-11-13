@@ -43,7 +43,7 @@ public class Practica {
         System.out.println("  La suma de N + A es:" + a.sumarotiadenNyA(N, A));
         System.out.println("La diferencia de A - N es:" + a.diferenciaAyN(N, A));
         System.out.println("El valor numerico de C es:" + a.getC());
-        System.out.println("********************************************************");
+        System.out.println("********************************");
 
         Clase2 b = new Clase2();
         System.out.println("******** Clase2 ********");
@@ -67,7 +67,7 @@ public class Practica {
         System.out.println("La multiplicacion de N*M es:" + b.multiplicacion(m, n));
         System.out.println("La divicion de X/Y es:" + b.divicion(Y, X));
         System.out.println("La division de N/M es:" + b.divicion(m, n));
-        System.out.println("********************************************************");
+        System.out.println("*********************");
 
         Clase3 d = new Clase3();
         System.out.println("******** Clase3 ********");
@@ -75,10 +75,9 @@ public class Practica {
         N = Integer.parseInt(teclado.nextLine());
         d.setN(N);
         System.out.println("La suma de N + 77-3*2 es:" + d.incrementar(N));
-        System.out.println("********************************************************");
+        System.out.println("*******************");
 
         Clase4 e = new Clase4();
-
         System.out.println("******** Clase 4 ********");
         System.out.println("Digite el valor de A");
         A4 = Integer.parseInt(teclado.nextLine());
@@ -96,7 +95,7 @@ public class Practica {
         System.out.println("El nuevo valor de B es:" + e.getC());
         System.out.println("El nuevo valor de C es:" + e.getA());
         System.out.println("El nuevo valor de D es:" + e.getB());
-        System.out.println("********************************************************");
+        System.out.println("***************************");
 
         Clase5 f = new Clase5();
         System.out.println("******** Clase 5 ********");
@@ -119,32 +118,33 @@ public class Practica {
             System.out.println("El valor de B es Posi1tivo");
         }
         
-        Clase7 s = new Clase7();
+        Clase7 x = new Clase7();
         System.out.println("******** Clase7 ********");
         System.out.println("Digite el valor de C");
         c = Integer.parseInt(teclado.nextLine());
-        if (s.positivo() == true) {
+       x.setC(c);
+        if (x.positivo() == true) {
             System.out.println("El valor de C es Negativo");
         } else {
             System.out.println("El valor de C es Positivo");
         }
 
-        if (s.par() == true) {
+        if (x.par() == true) {
             System.out.println("C es par");
         } else {
             System.out.println("C es impar");
         }
-        if (s.multiplode5() == true) {
+        if (x.multiplode5() == true) {
             System.out.println("El valor de C es multiplo de 5");
         } else {
             System.out.println("El valor de C NO es multiplo de 5");
         }
-        if (s.multiplode10() == true) {
+        if (x.multiplode10() == true) {
             System.out.println("El valor de C es multiplo de 10");
         } else {
             System.out.println("El valor de C NO es multiplo de 10");
         }
-        if (s.esmayorque0() == true) {
+        if (x.esmayorque0() == true) {
             System.out.println("El valor de C es Menor que 100");
         } else {
             System.out.println("El valor de C es Mayor que 100");

@@ -10,8 +10,6 @@ package practicastring;
  * @author Monse
  */
 public class Clase1 {
-
-    String Enero, Febrero, Marzo, abril, Mayo, Junio, Julio, agosto, Septiembre, Octubre, Noviembre, Diciembre;
     int num;
 
     public Clase1() {
@@ -29,29 +27,29 @@ public class Clase1 {
     public String Mes(int num) {
         String Mes = " ";
         if (num == 1) {
-            Mes = Enero;
+            Mes ="Enero";
         } else if (num == 2) {
-            Mes = Febrero;
+            Mes = "Febrero";
         } else if (num == 3) {
-            Mes = Marzo;
+            Mes = "Marzo";
         } else if (num == 4) {
-            Mes = abril;
+            Mes = "abril";
         } else if (num == 5) {
-            Mes = Mayo;
+            Mes = "Mayo";
         } else if (num == 6) {
-            Mes = Junio;
+            Mes = "Junio";
         } else if (num == 7) {
-            Mes = Julio;
+            Mes = "Julio";
         } else if (num == 8) {
-            Mes = agosto;
+            Mes = "agosto";
         } else if (num == 9) {
-            Mes = Septiembre;
+            Mes = "Septiembre";
         } else if (num == 10) {
-            Mes = Octubre;
+            Mes = "Octubre";
         } else if (num == 11) {
-            Mes = Noviembre;
+            Mes = "Noviembre";
         } else if (num == 12) {
-            Mes = Diciembre;
+            Mes = "Diciembre";
         }return Mes;
     }
 }

@@ -11,10 +11,9 @@ package practicastring;
  */
 public class Clase4 {
 
-    int mesa, anno;
+    int mesa;
 
     public Clase4() {
-        this.anno = 0;
         this.mesa = 0;
     }
 
@@ -26,15 +25,7 @@ public class Clase4 {
         this.mesa = mesa;
     }
 
-    public int getAnno() {
-        return anno;
-    }
-
-    public void setAnno(int anno) {
-        this.anno = anno;
-    }
-
-    public int fecha(int anno, int mesa) {
+    public int fecha(int mesa) {
 
         int dias = 0;
         if (mesa == 1 || mesa == 3 || mesa == 5 || mesa== 7 || mesa == 8 || mesa == 10 || mesa == 12) {

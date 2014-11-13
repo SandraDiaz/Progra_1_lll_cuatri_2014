@@ -29,7 +29,7 @@ public class Ejercicio1 {
         return suma;
     }
 
-    public int ValorMayor50() {
+    public int AcomuladoMayor50() {
         int num = 0;
         for (int i = 0; i < valor.length; i++) {
             if (valor[i] > 50) {

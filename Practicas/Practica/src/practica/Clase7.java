@@ -4,16 +4,26 @@
  * and open the template in the editor.
  */
 
+package practica;
+
 /**
  *
  * @author Monse
  */
-public class Clase7 {
 
-    int C;
+
+public class Clase7 {
+     int C;
 
     public Clase7() {
         this.C = 0;
+    }
+       public boolean positivo() {
+        if (this.C < 0) {
+            return (true);
+        } else {
+            return (false);
+        }
     }
 
     public int getC() {
@@ -23,16 +33,7 @@ public class Clase7 {
     public void setC(int C) {
         this.C = C;
     }
-
-    public boolean positivo() {
-        if (this.C < 0) {
-            return (true);
-        } else {
-            return (false);
-        }
-    }
-
-    public boolean par() {
+   public boolean par() {
         if (this.C % 2 == 0) {
             return (true);
         } else {

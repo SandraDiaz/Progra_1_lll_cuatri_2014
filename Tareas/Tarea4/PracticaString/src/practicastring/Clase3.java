@@ -12,7 +12,6 @@ package practicastring;
 public class Clase3 {
 
     char letra, a, b, c, d, e;
-    String Excelente, Bueno, Regular, Malo, Pesimo;
 
     public Clase3() {
         this.letra = 0;
@@ -29,15 +28,15 @@ public class Clase3 {
     public String Mensaje(char letra) {
         String Mensaje = " ";
         if (letra == a) {
-            Mensaje = Excelente;
+            Mensaje = "Excelente";
         } else if (letra == b) {
-            Mensaje = Bueno;
+            Mensaje = "Bueno";
         } else if (letra == c) {
-            Mensaje = Regular;
+            Mensaje = "Regular";
         } else if (letra == d) {
-            Mensaje = Malo;
+            Mensaje = "Malo";
         } else if (letra == e) {
-            Mensaje = Pesimo;
+            Mensaje = "Pesimo";
         }
         return Mensaje;
     }

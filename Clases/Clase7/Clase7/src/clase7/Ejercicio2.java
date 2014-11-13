@@ -12,6 +12,7 @@ package clase7;
  */
 public class Ejercicio2 {
 private float alturas[]=new float[5];
+
 public void AgregarAltura(float altura){
     for (int i = 0; i < alturas.length; i++) {
         alturas[i]= altura;

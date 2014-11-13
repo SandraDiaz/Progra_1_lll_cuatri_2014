@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package clase5;
+
 import java.util.Scanner;
+
 /**
  *
  * @author Monse
@@ -25,7 +26,7 @@ public class Clase5 {
         int opcion = 0;
 
         Scanner teclado = new Scanner(System.in);
-       Operaciones oOperaciones = new Operaciones();
+        Operaciones oOperaciones = new Operaciones();
 
         do {
 
@@ -119,5 +120,4 @@ public class Clase5 {
 
     }
 
-    }
-    
+}

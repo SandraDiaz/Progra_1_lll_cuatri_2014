@@ -18,7 +18,7 @@ public class PracticaString {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       
+       boolean validar= true;
         char continuar;
         int opcion = 0;
 
@@ -40,7 +40,7 @@ public class PracticaString {
             switch (opcion) {
                 case 1:
                     Clase1 oClase1= new Clase1();
-                    System.out.println("Digite el Mes");
+                    System.out.println("Digite un numero");
                     teclado = new Scanner(System.in);
                     int num= Integer.parseInt(teclado.nextLine());
                     String  Mes = oClase1.Mes(num);
@@ -58,24 +58,23 @@ public class PracticaString {
 
                 case 3:
                     Clase3 oClase3= new Clase3();
-                    System.out.println("Digite la letra ");
+                    System.out.println("Digite una letra de a-e ");
                     teclado = new Scanner(System.in);
-                    char letra = Integer.parseInt(teclado.nextLine());
+                    char letra = teclado.nextLine().charAt(0);
                     String Mensaje = oClase3.Mensaje(letra);
                     System.out.println(Mensaje);
                     break;
 
                 case 4:
                     Clase4 oClase4=new Clase4();
-                    System.out.println("Digite el valor del primer dígito ");
+                    System.out.println("Digite el mes actal ");
                     teclado = new Scanner(System.in);
-                    Mesa = Integer.parseInt(teclado.nextLine());
-                    dias = oClase4.fecha(int anno, int mesa);
-                    System.out.println(dias);
+                    int Mesa = Integer.parseInt(teclado.nextLine());
+                    int dias= oClase4.fecha(Mesa);
+                    System.out.print(dias);
                     break;
 
                 default:
-
                     break;
             }
             System.out.println("Desea continuar con otra operación S/N ");

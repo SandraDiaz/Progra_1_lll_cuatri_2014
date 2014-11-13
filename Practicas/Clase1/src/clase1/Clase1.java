@@ -18,9 +18,11 @@ public class Clase1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-          double horasTrabajadas=0;
+        //double y fload es  lo mismo
+        double horasTrabajadas=0;
         double costoHora=0;
         double salario=0;
+        
         Scanner teclado = new Scanner(System.in);
         
         System.out.print("Digite las horas laboradas por el trabajador" +"\n");
